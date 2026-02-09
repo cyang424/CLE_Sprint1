@@ -421,5 +421,3 @@ INNER JOIN dev_analytics_db.customer_lifecycle.DQ_THRESHOLDS t
 WHERE t.IS_ACTIVE = TRUE
   AND s.CHECK_NAME NOT IN ('TOTAL_VOL', 'DISTINCT_PK');
 
-
-  select * from dev_analytics_db.customer_lifecycle.DQ_AUDIT
